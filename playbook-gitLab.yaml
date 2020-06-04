@@ -1,0 +1,9 @@
+---
+-
+ become: true
+ connection: local
+ hosts: localhost
+ name: "Install GitLab"
+ roles:
+   - 
+    role: ../gitlab-ansible-upgrade
